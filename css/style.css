@@ -1,2 +1,20 @@
-
+.nav-head {
+  display: flex;
+  justify-content: center;
+  line-height: 1.7;
+  padding: 23px 40px;
+  margin: 0 60px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+  line-height: 1.7;
+  padding: 23px 0;
+  margin-left: 5px;
+}
+.col-md-8 li {
+  display: inline-block;
+}
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
