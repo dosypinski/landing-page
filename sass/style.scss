@@ -137,3 +137,18 @@ section {
   margin-top: 0;
   line-height: 1.2;
 }
+.footer li {
+    font-size: 0;
+    padding: 10px;
+    display: inline-block;
+}
+.footer i {
+    font-size: 20px;
+    background: $color-dark;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
