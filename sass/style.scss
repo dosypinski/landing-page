@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: grey;
+    text-align: center;
+}
+.splash {
+  background-image: url(https://i.postimg.cc/PJ8ty7Vd/fernando-hernandez-l-Vu-V7-Acf-Or-Y-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav-head {
+  padding-right: 40px;
+  margin: 0;
+  & h3 {
+    margin: 16px auto;
+    font-size: 24px;
+  }
+}
+.navigation {
+    padding: 16px 0;
+    & .nav-list {
+        list-style-type: none;
+        padding-left: 140px;
+        & li {
+            display: inline-block;
+            position: relative;
+            margin-right: 36px;
+            text-align: center;
+            padding: 10px 0;
+          }
+      }
+}
+.splash-inner {
+  padding-top: 170px;
+  padding-bottom: 200px;
+  text-align: center;
+  & h2 {
+    font-size: 38px;
+    margin: 0;
+  }
+  & h1 {
+    font-size: 72px;
+    padding: 0;
+    margin: 0;
+  }
+}
+.btn {
+    display: inline-block;
+    min-width: 240px;
+    margin: 18px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fed136;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px;
+}
+.services-info {
+  max-width: 100%;
+}

@@ -1,20 +1,82 @@
-.nav-head {
-  display: flex;
-  justify-content: center;
+body {
+  margin: 0;
+  font-size: 16px;
   line-height: 1.7;
-  padding: 23px 40px;
-  margin: 0 60px;
-}
-.nav-list {
-  display: flex;
-  justify-content: space-around;
+  color: grey;
   text-align: center;
+}
+
+.splash {
+  background-image: url(https://i.postimg.cc/PJ8ty7Vd/fernando-hernandez-l-Vu-V7-Acf-Or-Y-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-head {
+  padding-right: 40px;
+  margin: 0;
+}
+
+.nav-head h3 {
+  margin: 16px auto;
+  font-size: 24px;
+}
+
+.navigation {
+  padding: 16px 0;
+}
+
+.navigation .nav-list {
   list-style-type: none;
-  line-height: 1.7;
-  padding: 23px 0;
-  margin-left: 5px;
+  padding-left: 140px;
 }
-.col-md-8 li {
+
+.navigation .nav-list li {
   display: inline-block;
+  position: relative;
+  margin-right: 36px;
+  text-align: center;
+  padding: 10px 0;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+.splash-inner {
+  padding-top: 170px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.splash-inner h2 {
+  font-size: 38px;
+  margin: 0;
+}
+
+.splash-inner h1 {
+  font-size: 72px;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 240px;
+  margin: 18px auto 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fed136;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px;
+}
+
+.services-info {
+  max-width: 100%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFNBQVM7RUFDVCxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxrQkFBa0I7QUNDdEI7O0FEQ0E7RUFDRSxxR0FBcUc7RUFDckcsa0NBQWtDO0VBQ2xDLHNCQUFzQjtBQ0V4Qjs7QURBQTtFQUNJLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QsZUFBZTtBQ0duQjs7QUREQTtFQUNFLG1CQUFtQjtFQUNuQixTQUFTO0FDSVg7O0FETkE7RUFJSSxpQkFBaUI7RUFDakIsZUFBZTtBQ01uQjs7QURIQTtFQUNJLGVBQWU7QUNNbkI7O0FEUEE7RUFHUSxxQkFBcUI7RUFDckIsbUJBQW1CO0FDUTNCOztBRFpBO0VBTVkscUJBQXFCO0VBQ3JCLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLGVBQWU7QUNVM0I7O0FETkE7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0VBQ3JCLGtCQUFrQjtBQ1NwQjs7QURaQTtFQUtJLGVBQWU7RUFDZixTQUFTO0FDV2I7O0FEakJBO0VBU0ksZUFBZTtFQUNmLFVBQVU7RUFDVixTQUFTO0FDWWI7O0FEVEE7RUFDSSxxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLHdCQUF3QjtFQUN4QixhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLHlCQUF5QjtFQUN6QixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2YsV0FBVztBQ1lmOztBRFZBO0VBQ0UsZUFBZTtBQ2FqQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
