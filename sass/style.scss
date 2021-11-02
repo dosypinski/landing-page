@@ -1,6 +1,10 @@
 $color-main: #fed136;
 $color-light: #ffffff;
 $color-dark: #000000;
+$font-label: 'Carattere', cursive;
+$font-title: 'Catamaran', sans-serif;
+$font-subtitle: 'Old Standard TT', serif;
+$font-text: 'Bitter', serif;
 
 body {
     margin: 0;
@@ -8,6 +12,7 @@ body {
     line-height: 1.7;
     color: grey;
     text-align: center;
+    font-family: $font-text;
 }
 section {
   padding: 80px 0;
@@ -17,10 +22,13 @@ section {
   margin-bottom: 0;
   padding-bottom: 0;
   color: $color-dark;
+  font-family: $font-title;
+  font-weight: 800;
 }
 .section-subtitle {
   margin-top: 0;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: $font-subtitle;
 }
 .splash {
   background-image: url(https://i.postimg.cc/PJ8ty7Vd/fernando-hernandez-l-Vu-V7-Acf-Or-Y-unsplash.jpg);
@@ -38,15 +46,19 @@ section {
   margin: 0;
   & h3 {
     margin: 16px auto;
-    font-size: 24px;
+    font-size: 30px;
     color: $color-main;
+    font-family: $font-label;
   }
 }
 .navigation {
-    padding: 16px 0;
+    padding: 18px 0;
     & .nav-list {
         list-style-type: none;
         padding-left: 140px;
+        padding-top: 8px;
+        font-family: $font-title;
+        font-weight: 500;
         & li {
             display: inline-block;
             position: relative;
@@ -61,13 +73,16 @@ section {
   padding-bottom: 200px;
   text-align: center;
   & h2 {
-    font-size: 38px;
+    font-size: 40px;
     margin: 0;
+    font-family: $font-subtitle;
   }
   & h1 {
-    font-size: 72px;
+    font-size: 78px;
     padding: 0;
     margin: 0;
+    font-family: $font-title;
+    font-weight: 800;
   }
 }
 .btn {
@@ -77,12 +92,14 @@ section {
     padding: 20px;
     border-radius: 5px;
     background-color: #fed136;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     border: 2px;
     color: $color-light;
+    font-family: $font-title;
+    font-weight: 800;
 }
 .icon {
     font-size: 30px;
@@ -100,6 +117,7 @@ section {
 }
 .services-info h3{
   color: $color-dark;
+  font-family: $font-title;
 }
 .portfolio {
   background-color: #f7f7f7;
@@ -132,6 +150,8 @@ section {
   margin-bottom: 0;
   line-height: 1.2;
   color: $color-dark;
+  font-family: $font-title;
+  font-weight: 800;
 }
 .gallery-body p {
   margin-top: 0;
